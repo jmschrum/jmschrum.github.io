@@ -1,0 +1,15 @@
+/* Grid Layout*/
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.picture-grid img {
+  height: 150px;
+  width: 100%;
+}
+/* Media and Flex */
+@media screen and (max-width: 768px) {
+  .flag .image-float {
+    flex-direction: column;
+  }
+}

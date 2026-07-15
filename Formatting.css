@@ -1,0 +1,42 @@
+/* Structure Formatting */
+body {
+  background-color: #895575;
+  color: #E7D3CC;
+}
+h1 {
+  text-align: center;
+  font-size:xx-large;
+  }
+p {
+  text-align: left;
+  margin-bottom: 25px;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+}
+footer {
+  margin-top: 50px;
+}
+/*Pseudoclasses*/
+.flag {
+  height: 150px;
+  width: 200px;
+}
+.center {
+  text-align: center;
+  margin-right: 50px;
+}
+/* Floated Layout (?) */
+.image-float {
+  display: flex;
+  float:left;
+  width: 150px;
+}
+/* Input Focus */
+input:focus:valid {
+  background-color: lightgreen;
+}
+input:focus:invalid {
+  background-color: lightcoral;
+}
